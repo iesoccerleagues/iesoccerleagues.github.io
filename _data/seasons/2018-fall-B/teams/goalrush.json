@@ -1,0 +1,139 @@
+{
+    "key": "goalrush",
+    "display_name": "Goal Rush",
+    "description": "Esri sponsored team under management of Ksenia Turk. We won first place of B-division in Season 2018 Fall.",
+    "logo": "placeholder-club.jpg",
+    "table": {
+        "games_played": 10,
+        "wins": 8,
+        "draws": 0,
+        "loses": 2,
+        "goals_for": 90,
+        "goals_against": 50,
+        "points": 24
+    },
+    "image": "teams/goalrush/team.jpg",
+    "players": {
+        "starting": [
+            {
+                "number": 1,
+                "name": "Nathan P.",
+                "img": "teams/goalrush/nathan.jpg",
+                "position": "GK",
+                "locator": "GK",
+                "played": 9,
+                "goals": 0
+            }
+            ,{
+                "number": 55,
+                "name": "Shuai S.",
+                "img": "teams/goalrush/shuai.jpg",
+                "position": "D",
+                "locator": "RB",
+                "played": 9,
+                "goals": 90
+            }
+            ,{
+                "number": 2,
+                "name": "Sergey B.",
+                "img": "teams/goalrush/sergey.jpg",
+                "position": "D",
+                "locator": "RCB",
+                "played": 7,
+                "goals": 0
+            }
+            ,{
+                "number": 4,
+                "name": "Jose S.",
+                "img": "teams/goalrush/jose.jpg",
+                "position": "D",
+                "locator": "LCB",
+                "played": 7,
+                "goals": 0
+            }
+            ,{
+                "number": 3,
+                "name": "Andrew T.",
+                "img": "teams/goalrush/andrew.jpg",
+                "position": "D",
+                "locator": "LB",
+                "played": 6,
+                "goals": 0
+            }
+            ,{
+                "number": 10,
+                "name": "Bruce F.",
+                "img": "teams/goalrush/bruce.jpg",
+                "position": "M",
+                "locator": "CDM",
+                "played": 8,
+                "goals": 0
+            }
+            ,{
+                "number": 9,
+                "name": "Matt C.",
+                "img": "teams/goalrush/matt.jpg",
+                "position": "M",
+                "locator": "CAM",
+                "played": 10,
+                "goals": 0
+            }
+            ,{
+                "number": 11,
+                "name": "Andrey S.",
+                "img": "teams/goalrush/andrey.jpg",
+                "position": "M",
+                "locator": "LM",
+                "played": 9,
+                "goals": 0
+            }
+            ,{
+                "number": 25,
+                "name": "Lennard G.",
+                "img": "teams/goalrush/leonard.jpg",
+                "position": "M",
+                "locator": "RCM",
+                "played": 7,
+                "goals": 0
+            }
+            ,{
+                "number": 7,
+                "name": "Kate S.",
+                "img": "teams/goalrush/kate.jpg",
+                "position": "M",
+                "locator": "RM",
+                "played": 10,
+                "goals": 0
+            }
+            ,{
+                "number": 15,
+                "name": "Mikaela C.",
+                "img": "teams/goalrush/mik.jpg",
+                "position": "F",
+                "locator": "LW",
+                "played": 7,
+                "goals": 0
+            }
+            ,{
+                "number": 14,
+                "name": "Abigail F.",
+                "img": "teams/goalrush/abbi.jpg",
+                "position": "F",
+                "locator": "RS",
+                "played": 10,
+                "goals": 0
+            }
+            ,{
+                "number": 16,
+                "name": "Ksenia F.",
+                "img": "teams/goalrush/ksenia.jpg",
+                "position": "F",
+                "locator": "LS",
+                "played": 8,
+                "goals": 0
+            }
+        ],
+        "subs": [
+        ]
+    }
+}

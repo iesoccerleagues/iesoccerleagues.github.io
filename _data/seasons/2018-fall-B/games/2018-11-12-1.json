@@ -1,0 +1,18 @@
+{
+    "date": "2018/11/12/20:45",
+    "type": "final",
+    "home": {
+        "key": "goalrush",
+        "score": 9,
+        "events": [
+            {"type": "goal", "time": 5, "player": "Abi"},
+            {"type": "goal", "time": 10, "player": "Andrey"}
+        ]
+    },
+    "away": {
+        "key": "goalrush",
+        "score": 6,
+        "events": [
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+global:
+  tagline: 中文
+  about: 关于
+  twitter: Twitter
+  github: GitHub
+langs:
+  it: Italiano
+  en: English
+  es: Español
+pages:
+  example: 例子
+  includeexample: The following text is a Jekyll include liquid tag parameter
+titles:
+  pagination: Pagination
+table:
+  season: 赛季
+  team: 队名
+  played: 赛
+  W: 胜
+  D: 平
+  L: 负
+  GF: 进球
+  GA: 失球
+  GD: 净胜
+  P: 积分
+team:
+  number: 号码
+  name: 姓名
+  position: 位置
+  played: 出场
+  goals: 进球

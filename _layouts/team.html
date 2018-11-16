@@ -1,0 +1,83 @@
+---
+layout: page
+---
+
+<!-- <link rel="stylesheet" type="text/css" href="{{"/assets/css/football-field.css" | relative_url }}">  -->
+<!-- <link rel="stylesheet" type="text/css" href="{{"/assets/css/custom-football-squad.css" | relative_url }}">  -->
+
+<h1>
+    <img width="20%" src='{{site.baseurl}}/assets/img/{{page.team.logo}}'/>
+    {{ page.team.display_name }}
+</h1>
+
+<p>{{ page.team.description }}</p>
+<br/>
+
+
+    <div class="column">
+<table>
+<thead>
+    <tr>
+    <th>{% t team.number %}</th>
+    <th>{% t team.name %}</th>
+    <th>{% t team.position %}</th>
+    <th>{% t team.played %}</th>
+    <th>{% t team.goals %}</th>
+    </tr>
+</thead>
+<tbody>
+    {% for player in page.team.players.starting %}
+    <tr>
+    <td>{{ player.number }}</td>
+    <td><font color='#f55'>{{ player.name }}</font></td>
+    <td>{{ player.position }}</td>
+    <td>{{ player.played }}</td>
+    <td>{{ player.goals }}</td>
+    </tr>
+    {% endfor %}
+
+    <tr>
+        <td></td>
+    </tr>
+
+    {% for player in page.team.players.subs %}
+    <tr>
+    <td>{{ player.number }}</td>
+    <td><font color='#aa1'>{{ player.name }}</font></td>
+    <td>{{ player.position }}</td>
+    <td>{{ player.played }}</td>
+    <td>{{ player.goals }}</td>
+    </tr>
+    {% endfor %}
+</tbody>
+</table>
+
+</div>
+
+
+<!-- <div class="column football_field_background" > -->
+<div class="column" >
+
+    <div class="football_field">
+        <img src="{{"/assets/img/field.svg" | relative_url }}" />
+
+        {% for player in page.team.players.starting %}
+            <div class="player {{player.locator}}">
+                <img src="{{site.baseurl}}/assets/img/{{player.img}}" />
+                <p>{{player.number}} {{player.name}}</p>
+            </div>
+        {% endfor %}
+
+    </div>
+
+
+</div>
+
+
+{% if page.team.image %}
+<br/>
+<div>
+    <img src="{{site.baseurl}}/assets/img/{{page.team.image}}" />
+</div>
+<br/>
+{% endif %}

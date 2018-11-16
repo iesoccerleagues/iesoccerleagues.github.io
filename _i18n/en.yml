@@ -1,0 +1,31 @@
+global:
+  tagline: English
+  about: About
+  twitter: Twitter
+  github: GitHub
+langs:
+  it: Italiano
+  en: English
+  es: Español
+pages:
+  example: example
+  includeexample: The following text is a Jekyll include liquid tag parameter
+titles:
+  pagination: Pagination
+table:
+  season: Season
+  team: Team
+  played: Played
+  W: Wins
+  D: Draws
+  L: Loses
+  GF: GF
+  GA: GA
+  GD: GD
+  P: P
+team:
+  number: No.
+  name: Name
+  position: R
+  played: P
+  goals: G
